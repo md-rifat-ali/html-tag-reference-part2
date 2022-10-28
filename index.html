@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html-tag-reference</title>
+    <style>
+        svg {
+            height: 150px;
+            width: 250px;
+            background-color: green;
+        }
+         table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            width: 170px;
+            letter-spacing: .5px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Defines an alternate content for users that do not support client-side scripts -->
+
+    <script>
+        document.write("Assalamualaikum")
+    </script>
+
+    <noscript>this browser does't support JavaScript.</noscript>
+
+    <br>
+    <!-- Defines a container for an external application -->
+
+    <object data="img/lighting-laptop.jpg" height="200px"></object>
+
+    <br>
+
+    <!-- Defines an ordered list -->
+
+    <ol>
+        <li>Apple</li>
+        <li>Orange</li>
+        <li>Banana</li>
+    </ol>
+
+    <br>
+    <!-- Defines a group of related options in a drop-down list
+    Defines an option in a drop-down list -->
+    <select>
+        <optgroup label="HP laptop">
+            <option value="hp core i3">HP core i3</option>
+            <option value="hp core i5">HP core i5</option>
+            <option value="hp core i7">HP core i7</option>
+        </optgroup>
+        <optgroup label="Dell laptop">
+            <option value="dell core i3"> Dell core i3</option>
+            <option value="dell core i5">Dell core i5</option>
+            <option value="dell core i7">Dell core i7</option>
+        </optgroup>
+    </select>
+    <br>
+
+    <!-- Defines a paragraph -->
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <!-- Defines a parameter for an object
+     -->
+    <!-- <object data="fatiha.mp3" type="audio/mpeg">
+        <param name="autoplay" value="true">
+    </object> -->
+    <br>
+    <!-- Defines a container for multiple image resources -->
+
+    <picture>
+        <source media="min-height:200px" srcset="img/splash.jpg">
+        <img src="img/splash.jpg" alt="beautiful-img" height="200px">
+    </picture>
+    <br>
+    <!-- Defines preformatted text -->
+    <pre>
+        Lorem ipsum dolor sit amet consectetur adipisicing.
+    </pre>
+
+    <!-- Represents the progress of a task -->
+    Your progress:
+    <progress value="45" max="100">45%</progress>
+    <br>
+    <!-- Defines a short quotation -->
+    Html means:<q>Hyper Text markup language</q>
+    <br>
+
+    <!-- Defines text that is no longer correct -->
+    I am a <s>bad</s> good boy.
+    <br>
+    <!-- Defines sample output from a computer program -->
+    <samp>File not found.Try again!</samp>
+    <br>
+    <!-- Defines a section in a document -->
+    <section>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut modi enim exercitationem veniam similique
+            dolores!</p>
+    </section>
+    <section>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sapiente perspiciatis similique mollitia
+            namquos!</p>
+    </section>
+    <br>
+    <!-- Defines smaller text -->
+    <small>Lorem ipsum dolor sit amet.</small>
+    <br>
+    <!-- Defines a section in a document -->
+    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, molestias.</span>
+    <br>
+    <!-- Defines important text -->
+    <p>My name is <strong>Rifat Ali</strong></p>
+    <br>
+    <!-- Defines style information for a document -->
+    <p style="color:red ;">Banladesh is my country.</p>
+    <br>
+    <!-- Defines subscripted text -->
+    <sub>
+        H<sub>2</sub>O means water.
+    </sub> <br>
+    <!-- Defines a visible heading for a <details> element -->
+    <details>
+        <summary>lorem center</summary>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, quos ipsam? Magnam nam quibusdam maiores
+            illo sequi, aperiam in iste?</p>
+    </details>
+    <br>
+    <!-- Defines superscripted text -->
+    a<sup>2</sup>-b<sup>2</sup>= (a+b)(a-b)
+    <br>
+    <!-- Defines a container for SVG graphics -->
+    <svg>
+        <circle cx="120px" cy="75px" r="40" fill="red" />
+
+    </svg>
+
+    <!-- Defines a table
+    Groups the body content in a table
+    Defines a cell in a table
+    Defines a row in a table
+    Groups the footer content in a table
+    Defines a header cell in a table -->
+    <table>
+        <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Rate</th>
+                </tr>
+        </thead>
+        <tr>
+            <td>Apple</td>
+            <td>240/=</td>
+        </tr>
+        <tr>
+            <td>Orange</td>
+            <td>360/=</td>
+        </tr>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>600/=</td>
+            </tr>
+        </tfoot>
+    </table>
+    <br>
+
+
+    <!-- Defines a container for content that should be hidden when the page loads -->
+    <template>
+        <h2>Flower</h2>
+        <img src="img/splash.jpg" width="214" height="204">
+      </template>
+
+      <!-- Defines a multiline input control (text area) -->
+      Message: <br>
+      <textarea name="text-area" id="text-area" cols="30" rows="10"></textarea>
+
+      <!-- Defines a specific time (or datetime) -->
+      <p>Our class time <time>09:00am</time> to <time>12:00pm</time> every Saturday.</p>
+
+      <!-- Defines some text that is unarticulated and styled differently from normal text -->
+      <p>The name of our country is <u>Bangladesh.</u> </p>
+
+
+      <!-- Defines an unordered list -->
+        <ul>milk</ul>
+        <ul>tea</ul>
+        <ul>coffe</ul>
+
+        <!-- Defines a variable -->
+      (<var>a</var>+<var>b</var>)<sup>2</sup>=<var>a</var><sup>2</sup>+2<var>ab</var>+<var>b</var><sup>2</sup><br>
+
+
+        <!-- Defines embedded video content -->
+        <video src="video/gojol.mp4" height="320px" width="380px" controls></video>
+
+
+      <br>
+
+    <!-- Defines a possible line-break -->
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum modi optio odio facere aliquid quo,<wbr> voluptatum, itaque perferendis maiores saepe quae ut <wbr>, laudantium vero sunt delectus repellat ipsum dolorum odit.</p>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

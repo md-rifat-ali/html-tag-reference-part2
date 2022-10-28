@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(230 247 255 / 72%);
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heading{
+    display: block;
+    width: 402px;
+    float: left;
+    margin: 160px 0px 0px 50px;
+}
+h1{
+    color: rgb(14, 107, 247);
+    font-size: 52px;
+    
+}
+p{
+    font-size: 23px;
+    color: #313030;
+    margin-top: 9px;
+    line-height: 28px;
+}
+form{
+    height: 318px;
+    width: 340px;
+    background-color: white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow:2px 2px 3px 2px rgb(219, 214, 214);
+    float: right;
+    margin: 125px 90px 0px 0px;
+}
+.container{
+    margin: 17px;
+    display: block
+}
+#input{
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid rgb(185, 185, 185);
+    width: 283px;
+    border-radius: 4px;
+
+}
+#input:focus{
+    border:1px solid rgb(8, 83, 247);
+    box-shadow: 1px 1px 4px 1px rgb(136, 170, 243) ;
+    outline: none;
+
+}
+.login{
+    padding: 11px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    width: 305px;
+    background-color: rgb(35, 118, 241);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+   
+}
+.login:hover{
+    background-color:rgb(16, 106, 241) ;
+}
+.forgotten {
+    text-align: center;
+}
+
+.forgotten a{
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(76 134 241);
+}
+.forgotten a:hover{
+    text-decoration: underline;
+}
+
+
+.hr{
+    border-top: 1px solid rgb(185, 185, 185);
+    width: 304px;
+    margin: 23px 0px;
+    
+}
+
+.submit-btn{
+    text-align: center;
+}
+.create{
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background-color: #15b915;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+      
+}
+.create:hover{
+    background-color: #12a512;
+}
+.footer{
+   margin:47px 21px ;
+   font-size: 13px;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+h6{
+    color: #4b4a4a;
+}

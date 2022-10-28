@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+
+
+}
+
+
+
+form{
+    border: 1px solid whitesmoke;
+    box-sizing: border-box;
+    height: 560px;
+    width: 432px;
+    margin: 65px auto;
+    border-radius: 7px;
+    box-shadow: 2px 2px 4px 3px rgb(237 237 237);
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+}
+.heading{
+    margin: 15px 0 15px 20px;
+    text-align: left;
+    
+}
+.hr{
+    border-bottom:1px solid rgb(204, 201, 201) ;
+    width: 432px;
+}
+.heading p{
+    color:#65676a;
+    font-size: 15px;
+}
+img{
+    height: 19px;
+    float: right;
+    margin: -52px 13px 0px 0px;
+}
+.input-details{
+    padding: 16px;
+    font-size: 15px;
+    
+   
+}
+.input-details2{
+    margin-top: 22px;
+}
+
+input{
+    height: 14px;
+    padding: 11px;
+    border-radius: 4px;
+    background-color: #f0f3f3;
+    border: 1px solid rgb(204, 201, 201);
+    font-size: 15px;
+    
+}
+#text{
+    float: left;
+    width: 166px;
+} 
+#text2{
+    float: right;
+    width: 166px;
+}
+#phone-email{
+    width: 374px;
+    
+}
+.date{
+    margin-left: -8px;
+
+}
+select{
+    width: 124.5px;
+    padding: 9px;
+    font-size: 16px;
+    margin: -14px 0px 0px 8px;
+    border-radius: 4px;
+    border: 1px solid rgb(204, 201, 201);
+}
+label{
+    margin-left: 9px;
+    color: #606770;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    display: block;
+    margin-top: 12px;
+}
+.gender label{
+    margin: -5px 0px -15px 1px;
+}
+.gender-btn p{
+    width: 79px;
+    float: left;
+    display: inline-block;
+    line-height: 3px;
+    padding: 4px;
+    height: 10px;
+}
+
+.gender-btn1, .gender-btn2, .gender-btn3{
+    display: flex;
+    border-radius: 4px;
+    border: 1px solid rgb(204, 201, 201);
+    width: 75px;
+    padding: 9px;
+    
+
+}
+#btn-gender{
+    width: 86px;
+
+}
+.gender-btn1{
+    float: left;
+    width: 107px;
+  
+}
+.gender-btn2{
+    display: inline-block;
+    margin: 0px 12px;
+    width: 100px;
+    
+}
+
+.gender-btn3{
+    float: right;
+    width: 107px;
+    
+}
+
+.para{
+    color: #86888b;
+    font-size: 11px;
+    margin-top: 12px;
+}
+.para2{
+    margin-top: 13px;
+}
+a{
+    color: rgb(72 106 157);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+button{
+    margin: 30px auto;
+    display: block;
+    padding: 8px;
+    background-color: #2aa12a;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 199px;
+}
+button:hover{
+    background-color: #5d9e5d;
+}
